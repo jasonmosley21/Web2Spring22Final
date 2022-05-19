@@ -21,6 +21,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/Event.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Event.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/Hamburger.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -110,11 +118,91 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/global\/footer.kit" : {
+    "\/dev\/content\/eventcontent\/BookClub.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
+      "oAP" : "\/dev\/content\/eventcontent\/BookClub.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/eventcontent\/Introduction.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/eventcontent\/Introduction.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/eventcontent\/Upcoming.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/eventcontent\/Upcoming.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/DontSee.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/DontSee.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/Hero_LateWinter.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/Hero_LateWinter.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/JointheWonder.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/JointheWonder.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/Shop_NewArrivals.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/Shop_NewArrivals.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/ShoppingSections.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/ShoppingSections.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/indexcontent\/Visit.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/indexcontent\/Visit.html",
+      "oF" : 0
+    },
+    "\/dev\/Event.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Event.html",
+      "oF" : 2
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
