@@ -122,16 +122,24 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/eventcontent\/BookClub.html",
       "oF" : 0
     },
-    "\/dev\/content\/eventcontent\/Introduction.kit" : {
+    "\/dev\/content\/eventcontent\/introduction.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/eventcontent\/Introduction.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/eventcontent\/MoreEvents.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/eventcontent\/MoreEvents.html",
       "oF" : 0
     },
     "\/dev\/content\/eventcontent\/Upcoming.kit" : {
