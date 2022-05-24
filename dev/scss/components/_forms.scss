@@ -32,11 +32,12 @@ textarea {
 
   form{
       display: flex;
-      
+      align-items: center;
       input{
           border: 1px solid var(--navygreen);
           width: 375px;
           height: 60px;
           border-radius: 8px;
+          margin-right: -171px;
       }
   }

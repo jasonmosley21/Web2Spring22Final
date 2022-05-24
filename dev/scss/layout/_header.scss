@@ -2,11 +2,24 @@
     Header
 ============= */
 #header{
-    display: flex;
-    justify-content: space-between;
+    
+    position: fixed;
+    background-color: var(--white);
+    width: 100%;
+    top: 0;
+    right: 0;
+    div{
+        margin: 0 8px;
+        grid-area: content;
+        display: flex;
+        justify-content: space-between;
     button{
     background-color: transparent;
-    img{
+    height: auto;
+    width: auto;
+    margin: 12px 0;
+    a{
+        img{
         height: 48px;
         @include md{
             height: 50px;
@@ -16,6 +29,23 @@
         }
         @include xl{
             height: 54px;
+        }
+        }
+    }
+    }
+    aside{
+        display: flex;
+        column-gap: 16px;
+        button{
+            width: 29px;
+            img{
+                height: 29px;
+            }
+        }
+        #burger-btn{
+            img{
+                height: 21px;
+            }
         }
     }
     }

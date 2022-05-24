@@ -11,3 +11,9 @@ html{
 .show-menu{
     display: block !important;
 }
+.hideforsm{
+    display: none;
+    @include md{
+        display: block;
+    }
+}

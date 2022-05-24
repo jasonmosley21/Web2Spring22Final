@@ -380,6 +380,15 @@ html {
   display: block !important;
 }
 
+.hideforsm {
+  display: none;
+}
+@media (min-width: 834px) {
+  .hideforsm {
+    display: block;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -487,44 +496,117 @@ textarea {
 
 form {
   display: flex;
+  align-items: center;
 }
 form input {
   border: 1px solid var(--navygreen);
   width: 375px;
   height: 60px;
   border-radius: 8px;
+  margin-right: -171px;
 }
 
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+nav aside {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  margin-right: 8px;
+}
+nav aside button {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+}
+nav aside button img {
+  height: 26px;
+}
+nav article ul li {
+  background-color: var(--snowbank);
+  border-bottom: 1px solid var(--argent);
+  width: 100vw;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav article ul li img {
+  height: 24px;
+  margin-left: 16px;
+}
+nav article ul li a:link, nav article ul li a:visited {
+  color: var(--chestnutplum);
+  transition: 0.25s;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 24px;
+}
+nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul li a:visited:hover, nav article ul li a:visited:active {
+  color: var(--buckthornbrown);
+}
+
 /* =============
     Header
 ============= */
 #header {
+  position: fixed;
+  background-color: var(--white);
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+#header div {
+  margin: 0 8px;
+  grid-area: content;
   display: flex;
   justify-content: space-between;
 }
-#header button {
+#header div button {
   background-color: transparent;
+  height: auto;
+  width: auto;
+  margin: 12px 0;
 }
-#header button img {
+#header div button a img {
   height: 48px;
 }
 @media (min-width: 834px) {
-  #header button img {
+  #header div button a img {
     height: 50px;
   }
 }
 @media (min-width: 1280px) {
-  #header button img {
+  #header div button a img {
     height: 52px;
   }
 }
 @media (min-width: 1440px) {
-  #header button img {
+  #header div button a img {
     height: 54px;
   }
+}
+#header div aside {
+  display: flex;
+  column-gap: 16px;
+}
+#header div aside button {
+  width: 29px;
+}
+#header div aside button img {
+  height: 29px;
+}
+#header div aside #burger-btn img {
+  height: 21px;
 }
 
 /* =============
