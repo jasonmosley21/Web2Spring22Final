@@ -16,3 +16,27 @@ input[type=password],
 textarea {
     -webkit-appearance: none;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--navygreen);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--navygreen);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--navygreen);
+  }
+
+  form{
+      display: flex;
+      
+      input{
+          border: 1px solid var(--navygreen);
+          width: 375px;
+          height: 60px;
+          border-radius: 8px;
+      }
+  }

@@ -1,3 +1,28 @@
 /* =============
     Buttons
 ============= */
+button{
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: rem-calc(16);
+    font-weight: 400;  
+}
+#explore{
+    background-color: var(--buckthornbrown);
+}
+#shop{
+    background-color: var(--chestnutplum);
+}
+#directions{
+    background-color: var(--white);
+    border: 2px solid var(--sapgreen);
+    color: var(--sapgreen);
+}
+#subscribe{
+    background-color: var(--navygreen);
+}

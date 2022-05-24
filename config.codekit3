@@ -126,6 +126,14 @@
       "oAP" : "\/dev\/content\/eventcontent\/BookClub.html",
       "oF" : 0
     },
+    "\/dev\/content\/eventcontent\/Details.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/eventcontent\/Details.html",
+      "oF" : 0
+    },
     "\/dev\/content\/eventcontent\/introduction.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -410,6 +418,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_shop.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_shop.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

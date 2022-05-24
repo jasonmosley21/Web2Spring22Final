@@ -1,5 +1,13 @@
 /* =============
     Base
 ============= */
-
-
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.show-menu{
+    display: block !important;
+}

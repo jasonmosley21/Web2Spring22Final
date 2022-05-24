@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Besley:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Starting Template</title>
 </head>
 
 <body>
-    <header>
-        <img src="img/Logo.svg" alt="The Spiral Bookcase">
+    <header id="header">
+        <button><a href="index.html"><img src="img/Logo.svg" alt="The Spiral Bookcase"></a></button>
         <nav id="main-menu">
             <button>
                 <img src="img/search icon.svg" alt="">
@@ -50,7 +53,7 @@
                 winter before spring's blooming. The cusp between is a strange & sacred 
                 place, and one worth embracing with stories and objects that shimmer.
             </p>
-            <button>
+            <button id="explore">
                 EXPLORE
             </button>
         </section>
@@ -60,29 +63,33 @@
                 </h3>
                 <ul>
                     <li>
-                        <button>
-                            <img src="" alt="book image">
-                        </button>
-                        <h5>
-                            These Great Athenians
-                        </h5>
-                        <p>
-                            $19.99
-                        </p>
+                        <section>
+                            <button>
+                                <img src="" alt="book image">
+                            </button>
+                            <h5>
+                                These Great Athenians
+                            </h5>
+                            <p>
+                                $19.99
+                            </p>
+                        </section>
                         <button>
                             ADD TO CART
                         </button>
                     </li>
-                    <li>
-                        <button>
-                            <img src="" alt="book image">
-                        </button>
-                        <h5>
-                            Obsidian Venus Bust
-                        </h5>
-                        <p>
-                            $40.00
-                        </p>
+                    <li class="mobilelg">
+                        <section>
+                            <button>
+                                <img src="" alt="book image">
+                            </button>
+                            <h5>
+                                Obsidian Venus Bust
+                            </h5>
+                            <p>
+                                $40.00
+                            </p>
+                        </section>
                         <button>
                             ADD TO CART
                         </button>
@@ -407,7 +414,7 @@
                                     Wed-Fri 12-6 Saturday 11-6 Sunday 11-5
                                 </h5>
                                 <img src="" alt="location icon">
-                                <button>
+                                <button id="directions">
                                     GET DIRECTIONS
                                 </button>
                             </section>

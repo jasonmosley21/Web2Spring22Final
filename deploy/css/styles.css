@@ -10,6 +10,21 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --eerieblack: #1C1C1C;
+  --argent: #888888;
+  --snowbank: #E9E9E9;
+  --white: #FFFFFF;
+  --navygreen: #345006;
+  --sapgreen: #578916;
+  --mikadogreen: #A9A633;
+  --groovygiraffe: #EBA810;
+  --buckthornbrown: #AD711B;
+  --chestnutplum: #853119;
+  --blackchocolate: #4A1100;
+  --floralwhite: #FFF8F5;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -352,12 +367,89 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.show-menu {
+  display: block !important;
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, p {
+  font-family: "Besley", serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 /* =============
     Buttons
 ============= */
+button {
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 60px;
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#explore {
+  background-color: var(--buckthornbrown);
+}
+
+#shop {
+  background-color: var(--chestnutplum);
+}
+
+#directions {
+  background-color: var(--white);
+  border: 2px solid var(--sapgreen);
+  color: var(--sapgreen);
+}
+
+#subscribe {
+  background-color: var(--navygreen);
+}
+
 /* =============
     Forms
 ============= */
@@ -376,12 +468,65 @@ textarea {
   -webkit-appearance: none;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--navygreen);
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--navygreen);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--navygreen);
+}
+
+form {
+  display: flex;
+}
+form input {
+  border: 1px solid var(--navygreen);
+  width: 375px;
+  height: 60px;
+  border-radius: 8px;
+}
+
 /* =============
     Navigation
 ============= */
 /* =============
     Header
 ============= */
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#header button {
+  background-color: transparent;
+}
+#header button img {
+  height: 48px;
+}
+@media (min-width: 834px) {
+  #header button img {
+    height: 50px;
+  }
+}
+@media (min-width: 1280px) {
+  #header button img {
+    height: 52px;
+  }
+}
+@media (min-width: 1440px) {
+  #header button img {
+    height: 54px;
+  }
+}
+
 /* =============
     Footer
 ============= */

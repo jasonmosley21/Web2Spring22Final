@@ -1,3 +1,22 @@
 /* =============
     Header
 ============= */
+#header{
+    display: flex;
+    justify-content: space-between;
+    button{
+    background-color: transparent;
+    img{
+        height: 48px;
+        @include md{
+            height: 50px;
+        }
+        @include lg{
+            height: 52px;
+        }
+        @include xl{
+            height: 54px;
+        }
+    }
+    }
+}
