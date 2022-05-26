@@ -410,6 +410,14 @@ html {
   }
 }
 
+.spacing {
+  margin-top: 64px;
+}
+
+.show-hide {
+  display: none !important;
+}
+
 /* =============
     Typography
 ============= */
@@ -727,6 +735,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   grid-template-areas: ". item1 item1 ." "item2 item2 item3 item3" "item4 item4 item5 item5" "item6 item6 item7 item7" ". item8 item8 ." "item9 item9 item10 item10" "item11 item11 item12 item12" "item13 item13 item14 item14" "item15 item15 item16 item16";
   row-gap: 16px;
   column-gap: 16px;
+  margin: 32px;
 }
 @media (min-width: 834px) {
   #shopping ul {
@@ -740,6 +749,10 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
     grid-template-areas: ". . item1 item1 item1 item1 item1 . ." "item2 item2 item2 item3 item3 item3 item4 item4 item4" "item5 item5 item5 item6 item6 item6 item7 item7 item7" "item8 item8 item8 item8 item8 item9 item10 item11 item12" "item8 item8 item8 item8 item8 item13 item14 item15 item16";
   }
 }
+#shopping ul li {
+  display: flex;
+  flex-direction: column;
+}
 #shopping ul li .items {
   width: 100%;
   padding-bottom: 100%;
@@ -749,16 +762,13 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   background-color: var(--floralwhite);
 }
 #shopping ul li .items img {
+  height: 256px;
   margin-top: 100%;
 }
 #shopping ul li aside {
   display: flex;
   justify-content: center;
-}
-#shopping ul li ul {
-  display: grid;
-  grid-template-columns: auto 16px auto 16px auto 16px auto;
-  grid-template-areas: ". item8 item8 item8 item8 item8 ." "item9 item9 item9 . item10 item10 item10" "item11 item11 item11 . item12 item12 item12" "item13 item13 item13 . item14 item14 item14" "item15 item15 item15 . item16 item16 item16";
+  margin-top: auto;
 }
 #shopping aside {
   display: flex;
@@ -936,4 +946,17 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #latewinter aside button {
   margin-bottom: 8px;
+}
+
+#wonder article {
+  background-color: var(--mikadogreen);
+  background-color: #a9a633;
+  border-radius: 8px;
+}
+#wonder article h2 {
+  text-align: center;
+}
+#wonder article p {
+  text-align: center;
+  padding: 0 2px;
 }
