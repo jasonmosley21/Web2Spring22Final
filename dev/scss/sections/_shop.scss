@@ -2,6 +2,9 @@
     @include lg{
         grid-template-columns: 168px auto 168px;
     }
+    @include xl{
+        grid-template-columns: auto 1032px auto; 
+    }
     h3{
         text-align: center;
     }
@@ -52,9 +55,9 @@
                 align-items: center;
                 background-color: var(--floralwhite);
                 img{
-                    height: 256px;
                     margin-top: 100%;
                 }
+
             }
             aside{
                 display: flex;
@@ -73,115 +76,313 @@
     
     #item1{
         grid-area: item1;
+        img{
+            height: 107px;
+            @include md{
+                height: 306px;
+            }
+            @include lg{
+                height: 406px;
+            }
+            @include xl{
+                height: 466px;
+            }
+        }
     }
     #item2{
         grid-area: item2;
+        img{
+            height: 107px;
+            @include md{
+                height: 306px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item3{
         grid-area: item3;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item4{
         grid-area: item4;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item5{
         grid-area: item5;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item6{
         grid-area: item6;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item7{
         grid-area: item7;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 210px;
+            }
+            @include xl{
+                height: 264px;
+            }
+        }
     }
     #item8{
         grid-area: item8;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 393px;
+            }
+            @include xl{
+                height: 482px;
+            }
+        }
     }
     #item9{
         grid-area: item9;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item10{
         grid-area: item10;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item11{
         grid-area: item11;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item12{
         grid-area: item12;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item13{
         grid-area: item13;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item14{
         grid-area: item14;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item15{
         grid-area: item15;
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
+            }
+        }
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
     #item16{
         grid-area: item16;
-        @include lg{
-            button{
-                width: 90px;
-                height: 36px;
-                font-size: rem-calc(8);
+        img{
+            height: 107px;
+            @include md{
+                height: 188px;
+            }
+            @include lg{
+                height: 58px;
+            }
+            @include xl{
+                height: 61px;
             }
         }
-    }
-    #item17{
-        grid-area: item17;
         @include lg{
-            button{
+            aside{
+                button{
                 width: 90px;
                 height: 36px;
                 font-size: rem-calc(8);
+                }
             }
         }
     }
