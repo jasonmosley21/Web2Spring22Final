@@ -713,6 +713,172 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 /* =============
     Footer
 ============= */
+@media (min-width: 1280px) {
+  #shopping {
+    grid-template-columns: 168px auto 168px;
+  }
+}
+#shopping h3 {
+  text-align: center;
+}
+#shopping ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: ". item1 item1 ." "item2 item2 item3 item3" "item4 item4 item5 item5" "item6 item6 item7 item7" ". item8 item8 ." "item9 item9 item10 item10" "item11 item11 item12 item12" "item13 item13 item14 item14" "item15 item15 item16 item16";
+  row-gap: 16px;
+  column-gap: 16px;
+}
+@media (min-width: 834px) {
+  #shopping ul {
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: ". item1 item1 item1 item2 item2 item2 ." "item3 item3 item4 item4 item5 item5 item6 item6" ". item7 item7 item8 item8 item9 item9 ." "item10 item10 item11 item11 item12 item12 item13 item13" ". item14 item14 item15 item15 item16 item16 .";
+  }
+}
+@media (min-width: 834px) and (min-width: 1280px) {
+  #shopping ul {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-areas: ". . item1 item1 item1 item1 item1 . ." "item2 item2 item2 item3 item3 item3 item4 item4 item4" "item5 item5 item5 item6 item6 item6 item7 item7 item7" "item8 item8 item8 item8 item8 item9 item10 item11 item12" "item8 item8 item8 item8 item8 item13 item14 item15 item16";
+  }
+}
+#shopping ul li .items {
+  width: 100%;
+  padding-bottom: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--floralwhite);
+}
+#shopping ul li .items img {
+  margin-top: 100%;
+}
+#shopping ul li aside {
+  display: flex;
+  justify-content: center;
+}
+#shopping ul li ul {
+  display: grid;
+  grid-template-columns: auto 16px auto 16px auto 16px auto;
+  grid-template-areas: ". item8 item8 item8 item8 item8 ." "item9 item9 item9 . item10 item10 item10" "item11 item11 item11 . item12 item12 item12" "item13 item13 item13 . item14 item14 item14" "item15 item15 item15 . item16 item16 item16";
+}
+#shopping aside {
+  display: flex;
+  justify-content: center;
+}
+#shopping #item1 {
+  grid-area: item1;
+}
+#shopping #item2 {
+  grid-area: item2;
+}
+#shopping #item3 {
+  grid-area: item3;
+}
+#shopping #item4 {
+  grid-area: item4;
+}
+#shopping #item5 {
+  grid-area: item5;
+}
+#shopping #item6 {
+  grid-area: item6;
+}
+#shopping #item7 {
+  grid-area: item7;
+}
+#shopping #item8 {
+  grid-area: item8;
+}
+#shopping #item9 {
+  grid-area: item9;
+}
+@media (min-width: 1280px) {
+  #shopping #item9 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item10 {
+  grid-area: item10;
+}
+@media (min-width: 1280px) {
+  #shopping #item10 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item11 {
+  grid-area: item11;
+}
+@media (min-width: 1280px) {
+  #shopping #item11 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item12 {
+  grid-area: item12;
+}
+@media (min-width: 1280px) {
+  #shopping #item12 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item13 {
+  grid-area: item13;
+}
+@media (min-width: 1280px) {
+  #shopping #item13 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item14 {
+  grid-area: item14;
+}
+@media (min-width: 1280px) {
+  #shopping #item14 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item15 {
+  grid-area: item15;
+}
+@media (min-width: 1280px) {
+  #shopping #item15 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item16 {
+  grid-area: item16;
+}
+@media (min-width: 1280px) {
+  #shopping #item16 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+#shopping #item17 {
+  grid-area: item17;
+}
+@media (min-width: 1280px) {
+  #shopping #item17 button {
+    width: 90px;
+    height: 36px;
+    font-size: 0.5rem;
+  }
+}
+
 #latewinter {
   margin-top: 72px;
   background-image: url("../../../deploy/img/hero1.png");
