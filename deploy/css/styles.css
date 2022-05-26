@@ -389,41 +389,69 @@ html {
   }
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+.grid .content {
+  grid-area: content;
+}
+
+@media (min-width: 834px) {
+  .hideformd {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hideforlg {
+    display: none;
+  }
+}
+
 /* =============
     Typography
 ============= */
 h1, h2, h3, h4, h5, p {
   font-family: "Besley", serif;
+  margin: 0;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: 800;
+  line-height: 67px;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 60.3px;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
+  line-height: 40.2px;
 }
 
 h4 {
   font-size: 1.5rem;
   font-weight: 600;
+  line-height: 40.2px;
 }
 
 h5 {
   font-size: 1rem;
   font-weight: 600;
+  line-height: 26.8px;
 }
 
 p {
   font-size: 1rem;
   font-weight: 500;
+  line-height: 26.8px;
 }
 
 /* =============
@@ -515,11 +543,29 @@ nav {
   width: 100vw;
   box-sizing: border-box;
 }
+@media (min-width: 1280px) {
+  nav {
+    display: block;
+    position: relative;
+    height: 100%;
+    margin-top: -88px;
+  }
+}
+@media (min-width: 1440px) {
+  nav {
+    margin-top: -96px;
+  }
+}
 nav aside {
   display: flex;
   justify-content: flex-end;
   background-color: transparent;
   margin-right: 8px;
+}
+@media (min-width: 1280px) {
+  nav aside {
+    display: none;
+  }
 }
 nav aside button {
   background-color: transparent;
@@ -529,6 +575,20 @@ nav aside button {
 nav aside button img {
   height: 26px;
 }
+@media (min-width: 1280px) {
+  nav article ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  nav article ul {
+    margin: 28px;
+  }
+}
 nav article ul li {
   background-color: var(--snowbank);
   border-bottom: 1px solid var(--argent);
@@ -537,6 +597,14 @@ nav article ul li {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 1280px) {
+  nav article ul li {
+    background-color: transparent;
+    border: none;
+    height: auto;
+    width: auto;
+  }
 }
 nav article ul li img {
   height: 24px;
@@ -550,6 +618,11 @@ nav article ul li a:link, nav article ul li a:visited {
   font-size: 1.5rem;
   font-weight: 600;
   margin-right: 24px;
+}
+@media (min-width: 1280px) {
+  nav article ul li a:link, nav article ul li a:visited {
+    margin: 0;
+  }
 }
 nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul li a:visited:hover, nav article ul li a:visited:active {
   color: var(--buckthornbrown);
@@ -571,11 +644,34 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 834px) {
+  #header div {
+    margin: 0 16px;
+  }
+}
 #header div button {
   background-color: transparent;
-  height: auto;
+  height: 48px;
   width: auto;
   margin: 12px 0;
+}
+@media (min-width: 834px) {
+  #header div button {
+    height: 50px;
+    margin: 15px 0;
+  }
+}
+@media (min-width: 1280px) {
+  #header div button {
+    height: 52px;
+    margin: 18px 0;
+  }
+}
+@media (min-width: 1440px) {
+  #header div button {
+    height: 54px;
+    margin: 21px 0;
+  }
 }
 #header div button a img {
   height: 48px;
@@ -605,6 +701,11 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #header div aside button img {
   height: 29px;
 }
+@media (min-width: 1280px) {
+  #header div aside #burger-btn {
+    display: none;
+  }
+}
 #header div aside #burger-btn img {
   height: 21px;
 }
@@ -612,3 +713,61 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 /* =============
     Footer
 ============= */
+#latewinter {
+  margin-top: 72px;
+  background-image: url("../../../deploy/img/hero1.png");
+  background-size: cover;
+  background-position: right;
+}
+@media (min-width: 834px) {
+  #latewinter {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1280px) {
+  #latewinter {
+    margin-top: 88px;
+  }
+}
+@media (min-width: 1440px) {
+  #latewinter {
+    margin-top: 96px;
+  }
+}
+#latewinter h2 {
+  color: var(--white);
+  text-align: center;
+  padding: 8px 24px 0;
+}
+@media (min-width: 834px) {
+  #latewinter h2 {
+    padding: 16px 24px 0;
+  }
+}
+#latewinter p {
+  color: var(--white);
+  text-align: center;
+  margin: 24px 2px;
+}
+@media (min-width: 834px) {
+  #latewinter p {
+    margin: 24px 283px;
+  }
+}
+@media (min-width: 1280px) {
+  #latewinter p {
+    margin: 24px 411px;
+  }
+}
+@media (min-width: 1440px) {
+  #latewinter p {
+    margin: 24px 487px;
+  }
+}
+#latewinter aside {
+  display: flex;
+  justify-content: center;
+}
+#latewinter aside button {
+  margin-bottom: 8px;
+}

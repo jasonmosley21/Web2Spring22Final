@@ -17,3 +17,21 @@ html{
         display: block;
     }
 }
+.grid{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+    .content{
+        grid-area: content;
+    }
+}
+.hideformd{
+    @include md{
+        display: none;
+    }
+} 
+.hideforlg{
+    @include lg{
+        display: none;
+    }
+}
