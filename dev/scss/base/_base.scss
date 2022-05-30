@@ -42,3 +42,30 @@ html{
 .show-hide{
     display: none !important;
 }
+.eventspacing{
+    margin-top: 40px;
+    @include md{
+        margin-top: 48px;
+    }
+    @include lg{
+        margin-top: 56px;
+    }
+    @include lg{
+        margin-top: 64px;
+    }
+}
+#showformd{
+    display: none;
+    @include md{
+        display: block;
+    }
+    @include lg{
+        display: none;
+    }
+}
+.showforlg{
+    display: none;
+    @include lg{
+        display: block;
+    }
+}

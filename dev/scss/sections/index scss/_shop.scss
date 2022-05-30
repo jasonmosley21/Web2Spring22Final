@@ -59,6 +59,9 @@
                 }
 
             }
+            .items:hover{
+                background-color: var(--snowbank);
+            }
             aside{
                 display: flex;
                 justify-content: center;
