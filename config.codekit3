@@ -29,11 +29,11 @@
       "oAP" : "\/deploy\/Event.html",
       "oF" : 0
     },
-    "\/deploy\/img\/1_94a46274-dfad-40ef-b85b-91c8047b8b21_480x480 1.png" : {
+    "\/deploy\/img\/1_94a46274-dfad-40ef-b85b-91c8047b8b21_480x4801.png" : {
       "ft" : 32768,
       "iS" : 173895,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/1_94a46274-dfad-40ef-b85b-91c8047b8b21_480x480 1.png",
+      "oAP" : "\/deploy\/img\/1_94a46274-dfad-40ef-b85b-91c8047b8b21_480x4801.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -55,24 +55,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/a thousand steps into night.png" : {
-      "ft" : 32768,
-      "iS" : 587884,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/a thousand steps into night.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/acorn crystals.png" : {
+    "\/deploy\/img\/acorncrystals.png" : {
       "ft" : 32768,
       "iS" : 1281591,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/acorn crystals.png",
+      "oAP" : "\/deploy\/img\/acorncrystals.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -81,11 +68,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/All Books.png" : {
+    "\/deploy\/img\/AllBooks.png" : {
       "ft" : 32768,
       "iS" : 250637,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/All Books.png",
+      "oAP" : "\/deploy\/img\/AllBooks.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -94,21 +81,34 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Arrow 1.svg" : {
+    "\/deploy\/img\/Arrow1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/Arrow 1.svg",
+      "oAP" : "\/deploy\/img\/Arrow1.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/bless the daughter.png" : {
+    "\/deploy\/img\/athousandstepsintonight.png" : {
+      "ft" : 32768,
+      "iS" : 587884,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/athousandstepsintonight.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/blessthedaughter.png" : {
       "ft" : 32768,
       "iS" : 87053,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/bless the daughter.png",
+      "oAP" : "\/deploy\/img\/blessthedaughter.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -117,11 +117,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Bookseller_Swap_-_FB_cover_1_480x480 1.png" : {
+    "\/deploy\/img\/Bookseller_Swap_-_FB_cover_1_480x4801.png" : {
       "ft" : 32768,
       "iS" : 185095,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Bookseller_Swap_-_FB_cover_1_480x480 1.png",
+      "oAP" : "\/deploy\/img\/Bookseller_Swap_-_FB_cover_1_480x4801.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -130,11 +130,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/cold clay.png" : {
+    "\/deploy\/img\/coldclay.png" : {
       "ft" : 32768,
       "iS" : 230350,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cold clay.png",
+      "oAP" : "\/deploy\/img\/coldclay.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -143,11 +143,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Crystals and Candles.png" : {
+    "\/deploy\/img\/CrystalsandCandles.png" : {
       "ft" : 32768,
       "iS" : 66861,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Crystals and Candles.png",
+      "oAP" : "\/deploy\/img\/CrystalsandCandles.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -169,11 +169,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/fairy house.png" : {
+    "\/deploy\/img\/fairyhouse.png" : {
       "ft" : 32768,
       "iS" : 290104,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/fairy house.png",
+      "oAP" : "\/deploy\/img\/fairyhouse.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -195,11 +195,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Folklore and Mythology.png" : {
+    "\/deploy\/img\/FolkloreandMythology.png" : {
       "ft" : 32768,
       "iS" : 67026,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Folklore and Mythology.png",
+      "oAP" : "\/deploy\/img\/FolkloreandMythology.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -208,11 +208,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Full_Moon_Salon_FB_Cover_480x480 1.png" : {
+    "\/deploy\/img\/Full_Moon_Salon_FB_Cover_480x4801.png" : {
       "ft" : 32768,
       "iS" : 83454,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Full_Moon_Salon_FB_Cover_480x480 1.png",
+      "oAP" : "\/deploy\/img\/Full_Moon_Salon_FB_Cover_480x4801.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -221,11 +221,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/grounds keeping.png" : {
+    "\/deploy\/img\/groundskeeping.png" : {
       "ft" : 32768,
       "iS" : 96450,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/grounds keeping.png",
+      "oAP" : "\/deploy\/img\/groundskeeping.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -257,21 +257,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Images\/Location Logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Images\/Location Logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/lemon verbena candle.png" : {
+    "\/deploy\/img\/lemonverbenacandle.png" : {
       "ft" : 32768,
       "iS" : 1042038,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/lemon verbena candle.png",
+      "oAP" : "\/deploy\/img\/lemonverbenacandle.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -293,6 +283,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/LocationLogo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/LocationLogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/Logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -303,11 +303,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/magic garden.png" : {
+    "\/deploy\/img\/magicgarden.png" : {
       "ft" : 32768,
       "iS" : 914300,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/magic garden.png",
+      "oAP" : "\/deploy\/img\/magicgarden.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -316,11 +316,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/obsidian bust.png" : {
+    "\/deploy\/img\/obsidianbust.png" : {
       "ft" : 32768,
       "iS" : 1187422,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/obsidian bust.png",
+      "oAP" : "\/deploy\/img\/obsidianbust.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -352,21 +352,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Right Arrow.svg" : {
+    "\/deploy\/img\/RightArrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/Right Arrow.svg",
+      "oAP" : "\/deploy\/img\/RightArrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/rosie the truffle hound.png" : {
+    "\/deploy\/img\/rosiethetrufflehound.png" : {
       "ft" : 32768,
       "iS" : 198835,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/rosie the truffle hound.png",
+      "oAP" : "\/deploy\/img\/rosiethetrufflehound.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -375,21 +375,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Search Icon.svg" : {
+    "\/deploy\/img\/SearchIcon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/Search Icon.svg",
+      "oAP" : "\/deploy\/img\/SearchIcon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/selenite star.png" : {
+    "\/deploy\/img\/selenitestar.png" : {
       "ft" : 32768,
       "iS" : 625969,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/selenite star.png",
+      "oAP" : "\/deploy\/img\/selenitestar.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -398,11 +398,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/SELKIE_FB_COVER_1_480x480 1.png" : {
+    "\/deploy\/img\/SELKIE_FB_COVER_1_480x4801.png" : {
       "ft" : 32768,
       "iS" : 130144,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/SELKIE_FB_COVER_1_480x480 1.png",
+      "oAP" : "\/deploy\/img\/SELKIE_FB_COVER_1_480x4801.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -411,21 +411,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Shopping Bag.svg" : {
+    "\/deploy\/img\/ShoppingBag.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/Shopping Bag.svg",
+      "oAP" : "\/deploy\/img\/ShoppingBag.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/Social Justice.png" : {
+    "\/deploy\/img\/SocialJustice.png" : {
       "ft" : 32768,
       "iS" : 67579,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Social Justice.png",
+      "oAP" : "\/deploy\/img\/SocialJustice.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -434,11 +434,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/spell candle.png" : {
+    "\/deploy\/img\/spellcandle.png" : {
       "ft" : 32768,
       "iS" : 597377,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/spell candle.png",
+      "oAP" : "\/deploy\/img\/spellcandle.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -447,11 +447,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/the atlas six.png" : {
+    "\/deploy\/img\/theatlassix.png" : {
       "ft" : 32768,
       "iS" : 746099,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/the atlas six.png",
+      "oAP" : "\/deploy\/img\/theatlassix.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -460,11 +460,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/the believer.png" : {
+    "\/deploy\/img\/thebeliever.png" : {
       "ft" : 32768,
       "iS" : 1010232,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/the believer.png",
+      "oAP" : "\/deploy\/img\/thebeliever.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -473,11 +473,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/The invisible kingdom.png" : {
+    "\/deploy\/img\/Theinvisiblekingdom.png" : {
       "ft" : 32768,
       "iS" : 256467,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/The invisible kingdom.png",
+      "oAP" : "\/deploy\/img\/Theinvisiblekingdom.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -486,11 +486,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/these great athenians.png" : {
+    "\/deploy\/img\/thesegreatathenians.png" : {
       "ft" : 32768,
       "iS" : 297625,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/these great athenians.png",
+      "oAP" : "\/deploy\/img\/thesegreatathenians.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

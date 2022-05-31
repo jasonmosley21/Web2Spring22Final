@@ -56,6 +56,8 @@
                 background-color: var(--floralwhite);
                 img{
                     margin-top: 100%;
+                    width: 75%;
+                    
                 }
 
             }
@@ -79,138 +81,39 @@
     
     #item1{
         grid-area: item1;
-        img{
-            height: 107px;
-            @include md{
-                height: 306px;
-            }
-            @include lg{
-                height: 406px;
-            }
-            @include xl{
-                height: 466px;
-            }
-        }
+        
     }
     #item2{
         grid-area: item2;
-        img{
-            height: 107px;
-            @include md{
-                height: 306px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+        
     }
     #item3{
         grid-area: item3;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+        
     }
     #item4{
         grid-area: item4;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+       
     }
     #item5{
         grid-area: item5;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+       
     }
     #item6{
         grid-area: item6;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+      
     }
     #item7{
         grid-area: item7;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 210px;
-            }
-            @include xl{
-                height: 264px;
-            }
-        }
+      
     }
     #item8{
         grid-area: item8;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 393px;
-            }
-            @include xl{
-                height: 482px;
-            }
-        }
+      
     }
     #item9{
         grid-area: item9;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+      
         @include lg{
             aside{
                 button{
@@ -223,18 +126,7 @@
     }
     #item10{
         grid-area: item10;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+     
         @include lg{
             aside{
                 button{
@@ -247,18 +139,7 @@
     }
     #item11{
         grid-area: item11;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+     
         @include lg{
             aside{
                 button{
@@ -271,18 +152,7 @@
     }
     #item12{
         grid-area: item12;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+      
         @include lg{
             aside{
                 button{
@@ -295,18 +165,7 @@
     }
     #item13{
         grid-area: item13;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+     
         @include lg{
             aside{
                 button{
@@ -319,18 +178,7 @@
     }
     #item14{
         grid-area: item14;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+     
         @include lg{
             aside{
                 button{
@@ -343,18 +191,7 @@
     }
     #item15{
         grid-area: item15;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+      
         @include lg{
             aside{
                 button{
@@ -367,18 +204,7 @@
     }
     #item16{
         grid-area: item16;
-        img{
-            height: 107px;
-            @include md{
-                height: 188px;
-            }
-            @include lg{
-                height: 58px;
-            }
-            @include xl{
-                height: 61px;
-            }
-        }
+       
         @include lg{
             aside{
                 button{

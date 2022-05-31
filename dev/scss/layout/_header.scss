@@ -16,42 +16,33 @@
         @include md{
             margin: 0 16px;
         }
-    button{
-    background-color: transparent;
-    height: 48px;
-    width: auto;
-    margin: 12px 0;
-    @include md{
-        height: 50px;
-        margin: 15px 0;
-    }
-    @include lg{
-        height: 52px;
-        margin: 18px 0;
-    }
-    @include xl{
-        height: 54px;
-        margin: 21px 0;
-    }
+    
     a{
         img{
-        height: 48px;
-        @include md{
-            height: 50px;
-        }
-        @include lg{
-            height: 52px;
-        }
-        @include xl{
-            height: 54px;
-        }
-        }
+            
+            height: 48px;
+            width: auto;
+            margin: 12px 0;
+            @include md{
+                height: 50px;
+                margin: 15px 0;
+            }
+            @include lg{
+                height: 52px;
+                margin: 18px 0;
+            }
+            @include xl{
+                height: 54px;
+                margin: 21px 0;
+            }
     }
     }
     aside{
         display: flex;
         column-gap: 16px;
+        align-items: center;
         button{
+            background-color: transparent;
             width: 29px;
             img{
                 height: 29px;

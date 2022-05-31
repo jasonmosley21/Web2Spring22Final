@@ -32,20 +32,19 @@
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            #imgbutton{
+            .imgbutton{
                 width: 100%;
                 height: auto;
                 background-color: transparent;
-                aside{
+                img{
                     width: 100%;
-                    padding-top: 100%;
-                    background-size: cover;
-                    background-position: center;
                 }
-                h4{
-                    color: var(--eerieblack);
-                }
+                
 
+            }
+            h4{
+                color: var(--eerieblack);
+                align-items: center;
             }
         }
     }

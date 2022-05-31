@@ -519,39 +519,39 @@ button {
   font-weight: 400;
 }
 
-#explore {
+.explore {
   background-color: var(--buckthornbrown);
 }
 
-#explore:hover {
+.explore:hover {
   background-color: var(--groovygiraffe);
 }
 
-#shop {
+.shop {
   background-color: var(--chestnutplum);
 }
 
-#shop:hover {
+.shop:hover {
   background-color: var(--groovygiraffe);
 }
 
-#directions {
+.directions {
   background-color: var(--white);
   border: 2px solid var(--sapgreen);
   color: var(--sapgreen);
 }
 
-#directions:hover {
+.directions:hover {
   background-color: var(--sapgreen);
   color: var(--white);
   border-color: var(--white);
 }
 
-#subscribe {
+.subscribe {
   background-color: var(--navygreen);
 }
 
-#subscribe:hover {
+.subscribe:hover {
   background-color: var(--sapgreen);
 }
 
@@ -717,53 +717,36 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
     margin: 0 16px;
   }
 }
-#header div button {
-  background-color: transparent;
+#header div a img {
   height: 48px;
   width: auto;
   margin: 12px 0;
 }
 @media (min-width: 834px) {
-  #header div button {
+  #header div a img {
     height: 50px;
     margin: 15px 0;
   }
 }
 @media (min-width: 1280px) {
-  #header div button {
+  #header div a img {
     height: 52px;
     margin: 18px 0;
   }
 }
 @media (min-width: 1440px) {
-  #header div button {
+  #header div a img {
     height: 54px;
     margin: 21px 0;
-  }
-}
-#header div button a img {
-  height: 48px;
-}
-@media (min-width: 834px) {
-  #header div button a img {
-    height: 50px;
-  }
-}
-@media (min-width: 1280px) {
-  #header div button a img {
-    height: 52px;
-  }
-}
-@media (min-width: 1440px) {
-  #header div button a img {
-    height: 54px;
   }
 }
 #header div aside {
   display: flex;
   column-gap: 16px;
+  align-items: center;
 }
 #header div aside button {
+  background-color: transparent;
   width: 29px;
 }
 #header div aside button img {
@@ -858,7 +841,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   align-items: center;
 }
 
-#footertxt {
+.footertxt {
   font-weight: 400;
   font-size: 0.5rem;
 }
@@ -910,6 +893,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #shopping ul li .items img {
   margin-top: 100%;
+  width: 75%;
 }
 #shopping ul li .items:hover {
   background-color: var(--snowbank);
@@ -926,191 +910,29 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #shopping #item1 {
   grid-area: item1;
 }
-#shopping #item1 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item1 img {
-    height: 306px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item1 img {
-    height: 406px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item1 img {
-    height: 466px;
-  }
-}
 #shopping #item2 {
   grid-area: item2;
-}
-#shopping #item2 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item2 img {
-    height: 306px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item2 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item2 img {
-    height: 264px;
-  }
 }
 #shopping #item3 {
   grid-area: item3;
 }
-#shopping #item3 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item3 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item3 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item3 img {
-    height: 264px;
-  }
-}
 #shopping #item4 {
   grid-area: item4;
-}
-#shopping #item4 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item4 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item4 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item4 img {
-    height: 264px;
-  }
 }
 #shopping #item5 {
   grid-area: item5;
 }
-#shopping #item5 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item5 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item5 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item5 img {
-    height: 264px;
-  }
-}
 #shopping #item6 {
   grid-area: item6;
-}
-#shopping #item6 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item6 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item6 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item6 img {
-    height: 264px;
-  }
 }
 #shopping #item7 {
   grid-area: item7;
 }
-#shopping #item7 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item7 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item7 img {
-    height: 210px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item7 img {
-    height: 264px;
-  }
-}
 #shopping #item8 {
   grid-area: item8;
 }
-#shopping #item8 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item8 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item8 img {
-    height: 393px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item8 img {
-    height: 482px;
-  }
-}
 #shopping #item9 {
   grid-area: item9;
-}
-#shopping #item9 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item9 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item9 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item9 img {
-    height: 61px;
-  }
 }
 @media (min-width: 1280px) {
   #shopping #item9 aside button {
@@ -1122,24 +944,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #shopping #item10 {
   grid-area: item10;
 }
-#shopping #item10 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item10 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item10 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item10 img {
-    height: 61px;
-  }
-}
 @media (min-width: 1280px) {
   #shopping #item10 aside button {
     width: 90px;
@@ -1149,24 +953,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #shopping #item11 {
   grid-area: item11;
-}
-#shopping #item11 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item11 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item11 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item11 img {
-    height: 61px;
-  }
 }
 @media (min-width: 1280px) {
   #shopping #item11 aside button {
@@ -1178,24 +964,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #shopping #item12 {
   grid-area: item12;
 }
-#shopping #item12 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item12 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item12 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item12 img {
-    height: 61px;
-  }
-}
 @media (min-width: 1280px) {
   #shopping #item12 aside button {
     width: 90px;
@@ -1205,24 +973,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #shopping #item13 {
   grid-area: item13;
-}
-#shopping #item13 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item13 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item13 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item13 img {
-    height: 61px;
-  }
 }
 @media (min-width: 1280px) {
   #shopping #item13 aside button {
@@ -1234,24 +984,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #shopping #item14 {
   grid-area: item14;
 }
-#shopping #item14 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item14 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item14 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item14 img {
-    height: 61px;
-  }
-}
 @media (min-width: 1280px) {
   #shopping #item14 aside button {
     width: 90px;
@@ -1262,24 +994,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #shopping #item15 {
   grid-area: item15;
 }
-#shopping #item15 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item15 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item15 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item15 img {
-    height: 61px;
-  }
-}
 @media (min-width: 1280px) {
   #shopping #item15 aside button {
     width: 90px;
@@ -1289,24 +1003,6 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #shopping #item16 {
   grid-area: item16;
-}
-#shopping #item16 img {
-  height: 107px;
-}
-@media (min-width: 834px) {
-  #shopping #item16 img {
-    height: 188px;
-  }
-}
-@media (min-width: 1280px) {
-  #shopping #item16 img {
-    height: 58px;
-  }
-}
-@media (min-width: 1440px) {
-  #shopping #item16 img {
-    height: 61px;
-  }
 }
 @media (min-width: 1280px) {
   #shopping #item16 aside button {
@@ -1452,19 +1148,17 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   align-items: center;
   justify-content: space-between;
 }
-#sections ul li #imgbutton {
+#sections ul li .imgbutton {
   width: 100%;
   height: auto;
   background-color: transparent;
 }
-#sections ul li #imgbutton aside {
+#sections ul li .imgbutton img {
   width: 100%;
-  padding-top: 100%;
-  background-size: cover;
-  background-position: center;
 }
-#sections ul li #imgbutton h4 {
+#sections ul li h4 {
   color: var(--eerieblack);
+  align-items: center;
 }
 
 #section1 {
