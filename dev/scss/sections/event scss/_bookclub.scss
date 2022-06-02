@@ -10,7 +10,7 @@
             margin-top: 32px;
             @include md{
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: auto auto;
                 grid-template-areas: "title title"
                 "img text"
                 ;
@@ -18,7 +18,7 @@
                 margin-top: 40px;
             }
             @include lg{
-                grid-template-columns: 42% auto;
+                grid-template-columns: auto auto;
                 grid-template-areas: "img title"
                 "img text"
                 ;
@@ -33,10 +33,11 @@
                 grid-area: img;
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 width: 100%;
                 border-radius: 8px;
                 img{
-                    width: 100%;
+                    width: 480px;
                 }
             }
             .title{

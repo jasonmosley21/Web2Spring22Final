@@ -1158,7 +1158,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #sections ul li h4 {
   color: var(--eerieblack);
-  align-items: center;
+  text-align: center;
 }
 
 #section1 {
@@ -1536,7 +1536,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 @media (min-width: 834px) {
   #bookclub article article {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
     grid-template-areas: "title title" "img text";
     column-gap: 16px;
     margin-top: 40px;
@@ -1544,7 +1544,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 @media (min-width: 1280px) {
   #bookclub article article {
-    grid-template-columns: 42% auto;
+    grid-template-columns: auto auto;
     grid-template-areas: "img title" "img text";
     column-gap: 40px;
     margin-top: 48px;
@@ -1560,11 +1560,12 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   grid-area: img;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   border-radius: 8px;
 }
 #bookclub article article .img img {
-  width: 100%;
+  width: 480px;
 }
 #bookclub article article .title {
   grid-area: title;
