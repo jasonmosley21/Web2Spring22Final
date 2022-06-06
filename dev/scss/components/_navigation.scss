@@ -1,51 +1,59 @@
 /* =============
     Navigation
 ============= */
-nav{
+nav {
     display: none;
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
-    @include lg{
+
+    @include lg {
         display: block;
         position: relative;
         height: 100%;
         margin-top: -88px;
     }
-    @include xl{
+
+    @include xl {
         margin-top: -96px;
     }
-    aside{
+
+    aside {
         display: flex;
         justify-content: flex-end;
         background-color: transparent;
         margin-right: 8px;
-        @include lg{
+
+        @include lg {
             display: none;
         }
-        button{
+
+        button {
             background-color: transparent;
             width: auto;
             height: auto;
-            img{
+
+            img {
                 height: 26px;
             }
         }
     }
-    article{
-        ul{
-            @include lg{
+
+    article {
+        ul {
+            @include lg {
                 display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 16px;
-            margin: 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                margin: 24px;
             }
-            @include xl{
+
+            @include xl {
                 margin: 28px;
             }
 
-            li{
+            li {
                 background-color: var(--snowbank);
                 border-bottom: 1px solid var(--argent);
                 width: 100vw;
@@ -53,31 +61,36 @@ nav{
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
-                @include lg{
+
+                @include lg {
                     background-color: transparent;
                     border: none;
                     height: auto;
                     width: auto;
 
                 }
-                
-                img{
+
+                img {
                     height: 24px;
                     margin-left: 16px;
                 }
-                a:link, a:visited{
+
+                a:link,
+                a:visited {
                     color: var(--chestnutplum);
                     transition: .25s;
-                   text-decoration: none;
-                   display: inline-block;
-                   font-size: rem-calc(24);
-                   font-weight: 600;
-                   margin-right: 24px;
-                   @include lg{
-                       margin: 0;
-                   }
-                    
-                    &:hover, &:active{
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: rem-calc(24);
+                    font-weight: 600;
+                    margin-right: 24px;
+
+                    @include lg {
+                        margin: 0;
+                    }
+
+                    &:hover,
+                    &:active {
                         color: var(--buckthornbrown);
                     }
                 }

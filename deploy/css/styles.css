@@ -463,7 +463,12 @@ html {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: "Besley", serif;
   margin: 0;
 }
@@ -558,11 +563,39 @@ button {
 /* =============
     Forms
 ============= */
-[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+[type=text],
+[type=password],
+[type=date],
+[type=datetime],
+[type=datetime-local],
+[type=month],
+[type=week],
+[type=email],
+[type=number],
+[type=search],
+[type=tel],
+[type=time],
+[type=url],
+[type=color],
+textarea {
   box-shadow: none;
 }
 
-[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+[type=text]:focus,
+[type=password]:focus,
+[type=date]:focus,
+[type=datetime]:focus,
+[type=datetime-local]:focus,
+[type=month]:focus,
+[type=week]:focus,
+[type=email]:focus,
+[type=number]:focus,
+[type=search]:focus,
+[type=tel]:focus,
+[type=time]:focus,
+[type=url]:focus,
+[type=color]:focus,
+textarea:focus {
   box-shadow: none;
 }
 
@@ -678,7 +711,8 @@ nav article ul li img {
   height: 24px;
   margin-left: 16px;
 }
-nav article ul li a:link, nav article ul li a:visited {
+nav article ul li a:link,
+nav article ul li a:visited {
   color: var(--chestnutplum);
   transition: 0.25s;
   text-decoration: none;
@@ -688,11 +722,14 @@ nav article ul li a:link, nav article ul li a:visited {
   margin-right: 24px;
 }
 @media (min-width: 1280px) {
-  nav article ul li a:link, nav article ul li a:visited {
+  nav article ul li a:link,
+nav article ul li a:visited {
     margin: 0;
   }
 }
-nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul li a:visited:hover, nav article ul li a:visited:active {
+nav article ul li a:link:hover, nav article ul li a:link:active,
+nav article ul li a:visited:hover,
+nav article ul li a:visited:active {
   color: var(--buckthornbrown);
 }
 
@@ -782,6 +819,11 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
     margin: 16px;
   }
 }
+#footer section {
+  display: grid;
+  grid-template-columns: auto 385px auto;
+  grid-template-areas: ". article ." ". ul .";
+}
 @media (min-width: 834px) {
   #footer section {
     display: grid;
@@ -802,6 +844,11 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 834px) {
+  #footer section article {
+    align-items: flex-end;
+  }
+}
 #footer section article form {
   margin: 16px 0;
 }
@@ -816,7 +863,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-right: 16px;
   margin-bottom: 8px;
 }
-#footer section ul li a:link, #footer section ul li a:visited {
+#footer section ul li a:link,
+#footer section ul li a:visited {
   color: var(--eerieblack);
   transition: 0.25s;
   text-decoration: none;
@@ -827,11 +875,14 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   font-family: "Besley", serif;
 }
 @media (min-width: 1280px) {
-  #footer section ul li a:link, #footer section ul li a:visited {
+  #footer section ul li a:link,
+#footer section ul li a:visited {
     margin: 0;
   }
 }
-#footer section ul li a:link:hover, #footer section ul li a:link:active, #footer section ul li a:visited:hover, #footer section ul li a:visited:active {
+#footer section ul li a:link:hover, #footer section ul li a:link:active,
+#footer section ul li a:visited:hover,
+#footer section ul li a:visited:active {
   color: var(--buckthornbrown);
 }
 #footer aside {
@@ -1357,7 +1408,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #introduction p {
   margin-top: 16px;
 }
-#introduction p a:link, #introduction p a:visited {
+#introduction p a:link,
+#introduction p a:visited {
   color: var(--mikadogreen);
   transition: 0.25s;
   text-decoration: none;
@@ -1365,11 +1417,14 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-right: 24px;
 }
 @media (min-width: 1280px) {
-  #introduction p a:link, #introduction p a:visited {
+  #introduction p a:link,
+#introduction p a:visited {
     margin: 0;
   }
 }
-#introduction p a:link:hover, #introduction p a:link:active, #introduction p a:visited:hover, #introduction p a:visited:active {
+#introduction p a:link:hover, #introduction p a:link:active,
+#introduction p a:visited:hover,
+#introduction p a:visited:active {
   color: var(--buckthornbrown);
 }
 
@@ -1427,6 +1482,7 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 }
 #upcoming article section img {
   width: 100%;
+  max-width: 480px;
   border-radius: 8px;
 }
 @media (min-width: 834px) {
@@ -1456,7 +1512,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   }
 }
 #upcoming article section aside img {
-  width: 167px;
+  width: 100%;
+  max-width: 216px;
   margin-top: 16px;
 }
 @media (min-width: 834px) {
@@ -1616,7 +1673,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
 #bookclub article article section p {
   margin-top: 16px;
 }
-#bookclub article article section p a:link, #bookclub article article section p a:visited {
+#bookclub article article section p a:link,
+#bookclub article article section p a:visited {
   color: var(--mikadogreen);
   transition: 0.25s;
   text-decoration: none;
@@ -1624,11 +1682,14 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-right: 24px;
 }
 @media (min-width: 1280px) {
-  #bookclub article article section p a:link, #bookclub article article section p a:visited {
+  #bookclub article article section p a:link,
+#bookclub article article section p a:visited {
     margin: 0;
   }
 }
-#bookclub article article section p a:link:hover, #bookclub article article section p a:link:active, #bookclub article article section p a:visited:hover, #bookclub article article section p a:visited:active {
+#bookclub article article section p a:link:hover, #bookclub article article section p a:link:active,
+#bookclub article article section p a:visited:hover,
+#bookclub article article section p a:visited:active {
   color: var(--buckthornbrown);
 }
 
@@ -1754,7 +1815,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
     width: 358px;
   }
 }
-.event section p a:link, .event section p a:visited {
+.event section p a:link,
+.event section p a:visited {
   color: var(--mikadogreen);
   transition: 0.25s;
   text-decoration: none;
@@ -1762,11 +1824,14 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-right: 24px;
 }
 @media (min-width: 1280px) {
-  .event section p a:link, .event section p a:visited {
+  .event section p a:link,
+.event section p a:visited {
     margin: 0;
   }
 }
-.event section p a:link:hover, .event section p a:link:active, .event section p a:visited:hover, .event section p a:visited:active {
+.event section p a:link:hover, .event section p a:link:active,
+.event section p a:visited:hover,
+.event section p a:visited:active {
   color: var(--buckthornbrown);
 }
 
@@ -1810,7 +1875,8 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-top: 24px;
   text-align: center;
 }
-#details article h3 a:link, #details article h3 a:visited {
+#details article h3 a:link,
+#details article h3 a:visited {
   color: var(--mikadogreen);
   transition: 0.25s;
   text-decoration: none;
@@ -1818,10 +1884,13 @@ nav article ul li a:link:hover, nav article ul li a:link:active, nav article ul 
   margin-right: 24px;
 }
 @media (min-width: 1280px) {
-  #details article h3 a:link, #details article h3 a:visited {
+  #details article h3 a:link,
+#details article h3 a:visited {
     margin: 0;
   }
 }
-#details article h3 a:link:hover, #details article h3 a:link:active, #details article h3 a:visited:hover, #details article h3 a:visited:active {
+#details article h3 a:link:hover, #details article h3 a:link:active,
+#details article h3 a:visited:hover,
+#details article h3 a:visited:active {
   color: var(--buckthornbrown);
 }

@@ -1,74 +1,99 @@
 /* =============
     Footer
 ============= */
-#footer{
+#footer {
     margin: 16px 0;
-    @include md{
+
+    @include md {
         margin: 20px 38px;
     }
-    @include lg{
+
+    @include lg {
         margin: 16px 215px;
     }
-    @include xl{
+
+    @include xl {
         margin: 16px;
     }
-    section{
-        @include md{
+
+    section {
+        display: grid;
+        grid-template-columns: auto 385px auto;
+        grid-template-areas: ". article ."
+            ". ul .";
+
+
+        @include md {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "article ul";
             column-gap: 64px;
-            @include xl{
+
+            @include xl {
                 grid-template-columns: auto 384px 310px auto;
                 grid-template-areas: ". article ul .";
             }
         }
-        article{
+
+        article {
             grid-area: article;
             display: flex;
             flex-direction: column;
             align-items: center;
-            form{
+
+            @include md {
+                align-items: flex-end;
+            }
+
+            form {
                 margin: 16px 0;
             }
         }
-        ul{
+
+        ul {
             grid-area: ul;
             height: 62px;
             width: 325px;
             margin-bottom: 64px;
-            li{
+
+            li {
                 display: inline-block;
                 margin-right: 16px;
                 margin-bottom: 8px;
-                a:link, a:visited{
+
+                a:link,
+                a:visited {
                     color: var(--eerieblack);
                     transition: .25s;
-                   text-decoration: none;
-                   display: inline-block;
-                   font-size: rem-calc(16);
-                   font-weight: 500;
-                   line-height: 26.8px;
-                   font-family: 'Besley', serif;
-                   @include lg{
-                       margin: 0;
-                   }
-                    
-                    &:hover, &:active{
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: rem-calc(16);
+                    font-weight: 500;
+                    line-height: 26.8px;
+                    font-family: 'Besley', serif;
+
+                    @include lg {
+                        margin: 0;
+                    }
+
+                    &:hover,
+                    &:active {
                         color: var(--buckthornbrown);
                     }
                 }
             }
         }
     }
-    aside{
+
+    aside {
         display: flex;
         gap: 10px;
         justify-content: center;
         align-items: center;
     }
 }
-.footertxt{
+
+.footertxt {
     font-weight: 400;
     font-size: rem-calc(8);
 }

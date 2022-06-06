@@ -1,41 +1,53 @@
-#introduction{
+#introduction {
     margin-top: 72px;
-    @include md{
+
+    @include md {
         grid-template-columns: 119px auto 119px;
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 227px auto 227px;
     }
-    @include xl{
+
+    @include xl {
         grid-template-columns: auto 933px auto;
     }
-    h1{
+
+    h1 {
         text-align: center;
         margin: 48px 0 32px;
-        @include md{
+
+        @include md {
             margin: 56px 0 40px;
         }
-        @include lg{
+
+        @include lg {
             margin: 64px 0 48px;
         }
-        @include xl{
+
+        @include xl {
             margin: 72px 0 56px;
         }
     }
-    p{
+
+    p {
         margin-top: 16px;
-        a:link, a:visited{
+
+        a:link,
+        a:visited {
             color: var(--mikadogreen);
             transition: .25s;
-           text-decoration: none;
-           display: inline-block;
-           
-           margin-right: 24px;
-           @include lg{
-               margin: 0;
-           }
-            
-            &:hover, &:active{
+            text-decoration: none;
+            display: inline-block;
+
+            margin-right: 24px;
+
+            @include lg {
+                margin: 0;
+            }
+
+            &:hover,
+            &:active {
                 color: var(--buckthornbrown);
             }
         }

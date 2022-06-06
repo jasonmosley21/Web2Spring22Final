@@ -1,98 +1,120 @@
-#bookclub{
-    @include md{
+#bookclub {
+    @include md {
         grid-template-columns: 40px auto 40px;
     }
-    article{
-        h1{
+
+    article {
+        h1 {
             text-align: center;
         }
-        article{
+
+        article {
             margin-top: 32px;
-            @include md{
+
+            @include md {
                 display: grid;
                 grid-template-columns: auto auto;
                 grid-template-areas: "title title"
-                "img text"
+                    "img text"
                 ;
                 column-gap: 16px;
                 margin-top: 40px;
             }
-            @include lg{
+
+            @include lg {
                 grid-template-columns: auto auto;
                 grid-template-areas: "img title"
-                "img text"
+                    "img text"
                 ;
                 column-gap: 40px;
                 margin-top: 48px;
             }
-            @include xl{
+
+            @include xl {
                 column-gap: 48px;
                 margin-top: 56px;
             }
-            .img{
+
+            .img {
                 grid-area: img;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 width: 100%;
                 border-radius: 8px;
-                img{
+
+                img {
                     width: 480px;
                 }
             }
-            .title{
+
+            .title {
                 grid-area: title;
                 margin-bottom: 16px;
                 margin-top: 24px;
-                @include md{
+
+                @include md {
                     margin-top: 0px;
                     margin-bottom: 24px;
                 }
-                @include lg{
+
+                @include lg {
                     margin-bottom: 32px;
                 }
-                @include xl{
+
+                @include xl {
                     margin-bottom: 40px;
                 }
-                h2{
+
+                h2 {
                     text-align: center;
                     margin: 0 2px 8px;
-                    @include md{
+
+                    @include md {
                         margin-bottom: 16px;
                     }
-                    @include md{
+
+                    @include md {
                         margin-bottom: 24px;
                     }
-                    @include md{
+
+                    @include md {
                         margin-bottom: 32px;
                     }
                 }
-                h3{
+
+                h3 {
                     text-align: center;
                 }
             }
-            section{
+
+            section {
                 grid-area: text;
-                p{
+
+                p {
                     margin-top: 16px;
-                    a:link, a:visited{
-                            color: var(--mikadogreen);
-                            transition: .25s;
-                           text-decoration: none;
-                           display: inline-block;
-                           
-                           margin-right: 24px;
-                           @include lg{
-                               margin: 0;
-                           }
-                            
-                            &:hover, &:active{
-                                color: var(--buckthornbrown);
-                            }
+
+                    a:link,
+                    a:visited {
+                        color: var(--mikadogreen);
+                        transition: .25s;
+                        text-decoration: none;
+                        display: inline-block;
+
+                        margin-right: 24px;
+
+                        @include lg {
+                            margin: 0;
                         }
+
+                        &:hover,
+                        &:active {
+                            color: var(--buckthornbrown);
+                        }
+                    }
                 }
             }
-            
+
         }
     }
 }
