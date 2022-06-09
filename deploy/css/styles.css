@@ -647,7 +647,6 @@ nav {
 @media (min-width: 1280px) {
   nav {
     display: block;
-    position: relative;
     height: 100%;
     margin-top: -88px;
   }
